@@ -34,3 +34,14 @@ a{
   color: #ffffff;
   text-decoration: none;
 }
+p{
+  font-family: Noto Sans;
+  font-size: 15pt;
+}
+.main b:first-of-type{
+  padding: 20px 10px 5px 10px;
+}
+.main b:first-of-type:hover{
+  border-bottom: 3px solid white;
+  padding: 20px 10px 5px 10px;
+}
