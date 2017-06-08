@@ -16,7 +16,6 @@ ul li{
   display: inline;
   font-size: 15pt;
   font-weight: bold;
-
   padding: 20px;
 
 }
@@ -45,4 +44,18 @@ p{
 .main b:first-of-type:hover{
   border-bottom: 3px solid white;
   padding: 20px 10px 5px 10px;
+}
+@media (max-device-width: 360px) and (max-device-height: 640px) {
+  body{
+    font-size: 200%;
+  }
+  ul{
+    color: yellow;
+
+    margin: auto;
+    width: 90%;
+  }
+  ul li{
+    font-size: 125% !important;
+  }
 }
