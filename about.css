@@ -16,6 +16,7 @@ ul li{
   display: inline;
   font-size: 15pt;
   font-weight: bold;
+
   padding: 20px;
 
 }
@@ -32,14 +33,6 @@ h2{
 a{
   color: #ffffff;
   text-decoration: none;
-}
-
-.main b:first-of-type{
-  padding: 20px 10px 5px 10px;
-}
-.main b:first-of-type:hover{
-  border-bottom: 3px solid white;
-  padding: 20px 10px 5px 10px;
 }
 @media (max-device-width: 360px) and (max-device-height: 640px) {
   body{
