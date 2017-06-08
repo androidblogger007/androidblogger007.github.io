@@ -37,6 +37,7 @@ a{
 p{
   font-family: Noto Sans;
   font-size: 15pt;
+  margin: 0px 2%;
 }
 .main b:first-of-type{
   padding: 20px 10px 5px 10px;
