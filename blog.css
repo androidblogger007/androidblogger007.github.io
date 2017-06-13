@@ -8,7 +8,7 @@ body{
   justify-content: center;
 }
 .menu ul li{
-   font-size: 20pt;
+   font-size: 3em;
    font-style: bold;
    list-style-type: none;
    padding: 20px;
@@ -23,12 +23,13 @@ body{
   justify-content: center;
 }
 .block{
-  margin-top: 50px;
+  margin-top: 50px 0px 10px 0px;
   text-align: center;
   padding-bottom: 20px;
 }
 h1{
   font-family: PT Sans Narrow;
+  font-size: 3em;
 }
 iframe{
   border: 2px solid white;
@@ -39,6 +40,6 @@ a{
 }
 .logo{
   font-family: Vibur;
-  font-size: 2em;
+  font-size: 4em;
   text-align: center;
 }
