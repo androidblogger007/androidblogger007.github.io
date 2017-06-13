@@ -8,7 +8,7 @@ body{
   justify-content: center;
 }
 .menu ul li{
-   font-size: 3em;
+
    font-style: bold;
    list-style-type: none;
    padding: 20px;
@@ -29,7 +29,6 @@ body{
 }
 h1{
   font-family: PT Sans Narrow;
-  font-size: 3em;
 }
 iframe{
   border: 2px solid white;
@@ -40,6 +39,21 @@ a{
 }
 .logo{
   font-family: Vibur;
-  font-size: 4em;
   text-align: center;
+}
+@media (min-width:360px) and  (max-width: 800px) {
+  h1{
+    font-size: 20pt !important;
+  }
+  .menu ul li{
+    font-size: 3em;
+  }
+  .logo{
+    font-size: 0.5em;
+  }
+}
+@media (min-width:800px) and (max-width: 1920px) {
+  .menu ul li{
+    font-size: 1.5em;
+  }
 }
