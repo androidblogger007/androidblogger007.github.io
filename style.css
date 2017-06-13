@@ -37,6 +37,7 @@ a{
 post{
   width: 80%;
   margin: auto;
+  padding: 5px 20px;
 }
 iframe{
   align: middle;
