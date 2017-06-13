@@ -38,13 +38,19 @@ post{
   width: 80%;
   margin: auto;
 }
+iframe{
+  align: middle;
+}
+@media (max-device-width: 320px) and (max-device-height: 568px) {
+  iframe{
+    width: 300px;
+  }
+}
 @media (max-device-width: 360px) and (max-device-height: 640px) {
   body{
     font-size: 200%;
   }
   ul{
-    color: yellow;
-
     margin: auto;
     width: 90%;
   }
