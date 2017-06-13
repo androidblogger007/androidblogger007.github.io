@@ -34,6 +34,10 @@ a{
   color: #ffffff;
   text-decoration: none;
 }
+post{
+  width: 80%;
+  margin: auto;
+}
 @media (max-device-width: 360px) and (max-device-height: 640px) {
   body{
     font-size: 200%;
