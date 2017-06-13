@@ -37,14 +37,14 @@ a{
 @media (max-device-width: 360px) and (max-device-height: 640px) {
   body{
     font-size: 200%;
-  }
+}
   ul{
     color: yellow;
 
     margin: auto;
     width: 90%;
-  }
+}
   ul li{
     font-size: 125% !important;
-  }
+}
 }
